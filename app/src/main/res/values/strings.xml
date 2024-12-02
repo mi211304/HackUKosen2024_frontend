@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Hack_U_2024</string>
+
+    <!-- 戻る　-->
+    <string name="back">戻る</string>
+
+    <!-- ログイン画面用 -->
+    <string name="username">アカウント名</string>
+    <string name="password">パスワード</string>
+    <string name="login_button_text">ログイン</string>
+    <string name="error_empty_login_fields">すべてのフィールドを入力してください</string>
+    <!-- ホーム画面　-->
+    <string name="logout">ログアウト</string>
+    <string name="start">ゲームスタート</string>
+    <string name="cardset">デッキ制作</string>
+    <string name="capture">ポチ袋キャプチャー</string>
+
+    <!-- ローディング画面　-->
+    <string name="loding">Loding Now</string>
+
+    <!-- ポチ袋キャプチャー　-->
+    <string name="captureactivity">CaptureActivity</string>
+    <string name="takepicture">写真をとる</string>
+
+    <!-- デッキ制作　-->
+    <string name="setcard">デッキ制作</string>
+
+    <!-- ゲーム画面　-->
+    <string name="game">ゲーム画面です。</string>
+
+
+
+
+</resources>

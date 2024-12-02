@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="usernameTextView" type="id" />
+    <item name="logoutButton" type="id" />
+    <item name="gameStartButton" type="id" />
+    <item name="deckCreationButton" type="id" />
+    <item name="captureButton" type="id" />
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Bidirectional TextInternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>C/C++</id>
+          </State>
+          <State>
+            <id>ClassesObjective-C</id>
+          </State>
+          <State>
+            <id>Compose preview</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Data flow analysisC/C++</id>
+          </State>
+          <State>
+            <id>Google Cloud Endpoints</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>InteroperabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>JNIAndroid</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java、Java の言語レベルの移行支援</id>
+          </State>
+          <State>
+            <id>Java、Java の言語レベルの移行支援</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Kotlin InteroperabilityInteroperabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>MigrationKotlin</id>
+          </State>
+          <State>
+            <id>Naming conventionsKotlin</id>
+          </State>
+          <State>
+            <id>Objective-C</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>ProductivityLintAndroid</id>
+          </State>
+          <State>
+            <id>PropertiesObjective-C</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>TestingLintAndroid</id>
+          </State>
+          <State>
+            <id>TypographyUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>YAML</id>
+          </State>
+          <State>
+            <id>finalize 関連Java</id>
+          </State>
+          <State>
+            <id>エラー処理Java</id>
+          </State>
+          <State>
+            <id>カプセル化Java</id>
+          </State>
+          <State>
+            <id>クラス構造Java</id>
+          </State>
+          <State>
+            <id>クローン関連の問題Java</id>
+          </State>
+          <State>
+            <id>コードスタイル問題Java</id>
+          </State>
+          <State>
+            <id>シリアライズ関連の問題Java</id>
+          </State>
+          <State>
+            <id>スレッド関連の問題Java</id>
+          </State>
+          <State>
+            <id>セキュリティJava</id>
+          </State>
+          <State>
+            <id>プロパティファイル</id>
+          </State>
+          <State>
+            <id>プロパティファイルJava</id>
+          </State>
+          <State>
+            <id>ポータビリティJava</id>
+          </State>
+          <State>
+            <id>メモリJava</id>
+          </State>
+          <State>
+            <id>リソース管理Java</id>
+          </State>
+          <State>
+            <id>ログ関連Java</id>
+          </State>
+          <State>
+            <id>代入関連の問題Java</id>
+          </State>
+          <State>
+            <id>制御フロー問題Java</id>
+          </State>
+          <State>
+            <id>可視性Java</id>
+          </State>
+          <State>
+            <id>国際化</id>
+          </State>
+          <State>
+            <id>国際化Java</id>
+          </State>
+          <State>
+            <id>宣言の冗長性Java</id>
+          </State>
+          <State>
+            <id>抽象化関連の問題Java</id>
+          </State>
+          <State>
+            <id>未使用コードObjective-C</id>
+          </State>
+          <State>
+            <id>潜在的なバグJava</id>
+          </State>
+          <State>
+            <id>継承関連の問題Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

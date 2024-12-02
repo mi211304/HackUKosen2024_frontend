@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ユーザーネーム表示 -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- ログアウトボタン -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        app:layout_constraintTop_toBottomOf="@id/usernameTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="32dp" />
+
+    <!-- ゲームスタートボタン -->
+    <Button
+        android:id="@+id/gameStartButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        app:layout_constraintTop_toBottomOf="@id/logoutButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="32dp" />
+
+    <!-- デッキ制作ボタン -->
+    <Button
+        android:id="@+id/deckCreationButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cardset"
+        app:layout_constraintTop_toBottomOf="@id/gameStartButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="32dp" />
+
+    <!-- ポチ袋キャプチャーボタン -->
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/capture"
+        app:layout_constraintTop_toBottomOf="@id/deckCreationButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
