@@ -42,7 +42,7 @@ class LoginActivity : AppCompatActivity() {
 
                 // 仮のトークンとユーザーIDを作成
                 val token = "sample_token_123"
-                val userId = "12345" // 仮のユーザーID
+                val userId = "1" // 仮のユーザーID
 
                 // SharedPreferencesに保存
                 saveUserCredentials(username, token, userId)

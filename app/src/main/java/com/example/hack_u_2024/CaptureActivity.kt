@@ -117,7 +117,7 @@ class CaptureActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             // 保存された写真のパスをログ出力
-            Log.d("CaptureActivity", "Photo saved to: ${photoFile.absolutePath}")
+            Log.d("CaptureActivity", "Photo saved togit branch\n: ${photoFile.absolutePath}")
             Toast.makeText(this, "写真が保存されました: ${photoFile.absolutePath}", Toast.LENGTH_LONG).show()
         }
     }

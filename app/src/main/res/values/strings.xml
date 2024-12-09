@@ -16,7 +16,7 @@
     <string name="capture">ポチ袋キャプチャー</string>
 
     <!-- ローディング画面　-->
-    <string name="loding">Loding Now</string>
+    <string name="loading">Loding Now</string>
 
     <!-- ポチ袋キャプチャー　-->
     <string name="captureactivity">CaptureActivity</string>
