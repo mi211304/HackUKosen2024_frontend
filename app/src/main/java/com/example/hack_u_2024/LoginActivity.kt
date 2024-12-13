@@ -64,7 +64,7 @@ class LoginActivity : AppCompatActivity() {
                         val response = get(baseUrl)
                         val jsonResponse = JSONObject(response)
                         val token = jsonResponse.optString("token", null)
-                        val userId = jsonResponse.optInt("userId", -1).takeIf { it != -1 }
+                        val userId = jsonResponse.optInt("user-id", -1).takeIf { it != -1 }
 
                         if (token != null && userId != null) {
                             Log.i("LoginActivity", "Login successful. Token: $token, UserId: $userId") // 成功時のログ
