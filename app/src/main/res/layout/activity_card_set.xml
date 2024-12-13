@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -22,123 +23,280 @@
 
     <ImageButton
         android:id="@+id/attribute1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="2dp"
-        android:src="@drawable/attribute"
+        android:layout_marginStart="9dp"
+        android:src="@drawable/first_sunrise"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/backButton"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/circle1"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="9dp"
+        android:src="@drawable/circle_selected"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"/>
 
     <ImageButton
         android:id="@+id/attribute2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="-5dp"
-        android:src="@drawable/attribute"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/sweet_sake"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/backButton"
         app:layout_constraintStart_toEndOf="@id/attribute1"/>
 
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/circle_selected"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute1"
+        android:visibility="gone"/>
+
     <ImageButton
         android:id="@+id/attribute3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="-5dp"
-        android:src="@drawable/attribute"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/kadomatsu"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/backButton"
         app:layout_constraintStart_toEndOf="@id/attribute2"/>
 
+    <ImageView
+        android:id="@+id/circle3"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/circle_selected"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute2"
+        android:visibility="gone"/>
+
     <ImageButton
         android:id="@+id/attribute4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="-5dp"
-        android:src="@drawable/attribute"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/eat_well"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/backButton"
         app:layout_constraintStart_toEndOf="@id/attribute3"/>
 
+    <ImageView
+        android:id="@+id/circle4"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/circle_selected"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute3"
+        android:visibility="gone"/>
+
     <ImageButton
         android:id="@+id/attribute5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="-5dp"
-        android:src="@drawable/attribute"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/no_problem"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/backButton"
         app:layout_constraintStart_toEndOf="@id/attribute4"/>
 
+    <ImageView
+        android:id="@+id/circle5"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/circle_selected"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute4"
+        android:visibility="gone"/>
+
     <ImageButton
         android:id="@+id/attribute6"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="-5dp"
-        android:src="@drawable/attribute"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/random"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/backButton"
         app:layout_constraintStart_toEndOf="@id/attribute5"/>
 
+    <ImageView
+        android:id="@+id/circle6"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/circle_selected"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute5"
+        android:visibility="gone"/>
+
     <ImageButton
         android:id="@+id/card1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
         android:layout_marginTop="40dp"
         android:layout_marginStart="22dp"
         android:src="@drawable/card"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/attribute1"
         app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/border1"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="22dp"
+        android:src="@drawable/card_border"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"/>
 
     <ImageButton
         android:id="@+id/card2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
         android:layout_marginTop="40dp"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="7dp"
         android:src="@drawable/card"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/attribute1"
         app:layout_constraintStart_toEndOf="@id/card1"/>
 
+    <ImageView
+        android:id="@+id/border2"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="7dp"
+        android:src="@drawable/card_border"
+        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toEndOf="@id/card1"
+        android:visibility="gone"/>
+
     <ImageButton
         android:id="@+id/card3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
         android:layout_marginTop="40dp"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="7dp"
         android:src="@drawable/card"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/attribute1"
         app:layout_constraintStart_toEndOf="@id/card2"/>
 
+    <ImageView
+        android:id="@+id/border3"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="7dp"
+        android:src="@drawable/card_border"
+        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toEndOf="@id/card2"
+        android:visibility="gone"/>
+
     <ImageButton
         android:id="@+id/card4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
         android:layout_marginStart="22dp"
         android:src="@drawable/card"
-        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/card1"
         app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/border4"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="22dp"
+        android:src="@drawable/card_border"
+        app:layout_constraintTop_toBottomOf="@id/card1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"/>
 
     <ImageButton
         android:id="@+id/card5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:layout_marginStart="5dp"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="7dp"
         android:src="@drawable/card"
-        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/card1"
         app:layout_constraintStart_toEndOf="@id/card4"/>
+
+    <ImageView
+        android:id="@+id/border5"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="7dp"
+        android:src="@drawable/card_border"
+        app:layout_constraintTop_toBottomOf="@id/card1"
+        app:layout_constraintStart_toEndOf="@id/card4"
+        android:visibility="gone"/>
 
     <ImageButton
         android:id="@+id/card6"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:layout_marginStart="5dp"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="7dp"
         android:src="@drawable/card"
-        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/card1"
         app:layout_constraintStart_toEndOf="@id/card5"/>
+
+    <ImageView
+        android:id="@+id/border6"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="7dp"
+        android:src="@drawable/card_border"
+        app:layout_constraintTop_toBottomOf="@id/card1"
+        app:layout_constraintStart_toEndOf="@id/card5"
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/decideButton"
@@ -148,10 +306,105 @@
         android:text="@string/decide"
         android:textSize="20sp"
         android:textColor="#000000"
-        android:background="@drawable/back_button"
+        android:background="@drawable/decide_button"
         style="@style/RoundedButtonStyle"
         app:layout_constraintTop_toBottomOf="@id/card5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
+
+    <View
+        android:id="@+id/downBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/semi_transparent_black"
+        app:layout_constraintTop_toTopOf="@id/card5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/upBlack"
+        android:layout_width="420dp"
+        android:layout_height="200dp"
+        android:background="@drawable/semi_transparent_black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select_pochi"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select_attribute"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/hopUp"
+        android:layout_width="340dp"
+        android:layout_height="183dp"
+        android:background="@drawable/pop_up"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/check"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="@id/hopUp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/backButton_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/back"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/back_button"
+        style="@style/RoundedButtonStyle"
+        app:layout_constraintBottom_toBottomOf="@id/hopUp"
+        app:layout_constraintStart_toStartOf="@id/hopUp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/decideButton_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/decide"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/decide_button"
+        style="@style/RoundedButtonStyle"
+        app:layout_constraintBottom_toBottomOf="@id/hopUp"
+        app:layout_constraintEnd_toEndOf="@id/hopUp"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

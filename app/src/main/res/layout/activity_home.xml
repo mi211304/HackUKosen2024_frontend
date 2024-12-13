@@ -21,6 +21,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="100dp"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/back_button"
+        style="@style/RoundedButtonStyle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
     <!-- ゲームスタートボタン -->
     <Button
         android:id="@+id/gameStartButton"

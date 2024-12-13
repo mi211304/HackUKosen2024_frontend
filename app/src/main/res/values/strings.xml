@@ -26,6 +26,7 @@
 
     <!-- デッキ制作　-->
     <string name="setcard">デッキ制作</string>
+    <string name="check">この編成で対戦しますか？</string>
 
     <!-- ゲーム画面　-->
     <string name="game">ゲーム画面です。</string>
