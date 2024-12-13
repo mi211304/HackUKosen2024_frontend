@@ -5,28 +5,153 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- デッキ制作のラベル -->
-    <TextView
-        android:id="@+id/cardSetTitleTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/setcard"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp" />
-
     <!-- 戻るボタン -->
     <Button
         android:id="@+id/backButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/back"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/back_button"
+        style="@style/RoundedButtonStyle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/attribute1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/attribute"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/attribute2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="-5dp"
+        android:src="@drawable/attribute"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute1"/>
+
+    <ImageButton
+        android:id="@+id/attribute3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="-5dp"
+        android:src="@drawable/attribute"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute2"/>
+
+    <ImageButton
+        android:id="@+id/attribute4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="-5dp"
+        android:src="@drawable/attribute"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute3"/>
+
+    <ImageButton
+        android:id="@+id/attribute5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="-5dp"
+        android:src="@drawable/attribute"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute4"/>
+
+    <ImageButton
+        android:id="@+id/attribute6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="-5dp"
+        android:src="@drawable/attribute"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toEndOf="@id/attribute5"/>
+
+    <ImageButton
+        android:id="@+id/card1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="22dp"
+        android:src="@drawable/card"
+        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/card2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/card"
+        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toEndOf="@id/card1"/>
+
+    <ImageButton
+        android:id="@+id/card3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/card"
+        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toEndOf="@id/card2"/>
+
+    <ImageButton
+        android:id="@+id/card4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="22dp"
+        android:src="@drawable/card"
+        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/card5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/card"
+        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toEndOf="@id/card4"/>
+
+    <ImageButton
+        android:id="@+id/card6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/card"
+        app:layout_constraintTop_toBottomOf="@id/attribute1"
+        app:layout_constraintStart_toEndOf="@id/card5"/>
+
+    <Button
+        android:id="@+id/decideButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/back"
-        app:layout_constraintTop_toBottomOf="@id/cardSetTitleTextView"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="40dp"
+        android:text="@string/decide"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/back_button"
+        style="@style/RoundedButtonStyle"
+        app:layout_constraintTop_toBottomOf="@id/card5"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

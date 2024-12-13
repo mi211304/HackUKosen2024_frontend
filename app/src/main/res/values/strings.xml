@@ -5,13 +5,15 @@
     <string name="back">戻る</string>
 
     <!-- ログイン画面用 -->
-    <string name="username">アカウント名</string>
+    <string name="username"><u>________________________</u></string>
     <string name="password">パスワード</string>
     <string name="login_button_text">ログイン</string>
     <string name="error_empty_login_fields">すべてのフィールドを入力してください</string>
+    <string name="input_name">名前を入力してください</string>
+    <string name="decide">決定</string>
     <!-- ホーム画面　-->
     <string name="logout">ログアウト</string>
-    <string name="start">ゲームスタート</string>
+    <string name="start">ゲーム開始</string>
     <string name="cardset">デッキ制作</string>
     <string name="capture">ポチ袋キャプチャー</string>
 

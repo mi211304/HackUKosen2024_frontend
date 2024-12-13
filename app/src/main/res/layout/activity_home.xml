@@ -3,66 +3,72 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
-    <!-- ユーザーネーム表示 -->
-    <TextView
-        android:id="@+id/usernameTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/username"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp" />
-
-    <!-- ログアウトボタン -->
+    <!-- 戻るボタン -->
     <Button
-        android:id="@+id/logoutButton"
+        android:id="@+id/backButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/logout"
-        app:layout_constraintTop_toBottomOf="@id/usernameTextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="32dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/back"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/back_button"
+        style="@style/RoundedButtonStyle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <!-- ゲームスタートボタン -->
     <Button
         android:id="@+id/gameStartButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
         android:text="@string/start"
-        app:layout_constraintTop_toBottomOf="@id/logoutButton"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:background="@drawable/start_button"
+        style="@style/RoundedButtonStyle"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="60dp"
         android:layout_marginHorizontal="32dp" />
 
     <!-- デッキ制作ボタン -->
     <Button
         android:id="@+id/deckCreationButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:drawableLeft="@drawable/ic_deck"
         android:text="@string/cardset"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:background="@drawable/deck_button"
+        style="@style/RoundedButtonStyle"
         app:layout_constraintTop_toBottomOf="@id/gameStartButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="52dp"
         android:layout_marginHorizontal="32dp" />
 
     <!-- ポチ袋キャプチャーボタン -->
     <Button
         android:id="@+id/captureButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:drawableLeft="@drawable/ic_capture"
         android:text="@string/capture"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        android:background="@drawable/capture_button"
+        style="@style/RoundedButtonStyle"
         app:layout_constraintTop_toBottomOf="@id/deckCreationButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:layout_marginHorizontal="32dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

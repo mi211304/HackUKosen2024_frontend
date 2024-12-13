@@ -15,32 +15,41 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         // UI要素を取得
-        val usernameTextView: TextView = findViewById(R.id.usernameTextView)
-        val logoutButton: Button = findViewById(R.id.logoutButton)
+//        val usernameTextView: TextView = findViewById(R.id.logoutButton)
+        val backButton: Button = findViewById(R.id.backButton)
         val gameStartButton: Button = findViewById(R.id.gameStartButton)
         val deckCreationButton: Button = findViewById(R.id.deckCreationButton)
         val captureButton: Button = findViewById(R.id.captureButton)
 
         // SharedPreferencesからユーザーネームを取得して表示
-        val sharedPreferences = getSharedPreferences("user_prefs", MODE_PRIVATE)
-        val username = sharedPreferences.getString("username", "No Username")
-        usernameTextView.text = "ようこそ、$username さん！"
+//        val sharedPreferences = getSharedPreferences("user_prefs", MODE_PRIVATE)
+//        val username = sharedPreferences.getString("username", "No Username")
+//        usernameTextView.text = "ようこそ、$username さん！"
 
         // ログアウトボタンのクリックイベント
-        logoutButton.setOnClickListener {
-            Log.d("HomeActivity", "Logout clicked")
+//        logoutButton.setOnClickListener {
+//            Log.d("HomeActivity", "Logout clicked")
+//
+//            // SharedPreferencesをクリア
+//            val editor = sharedPreferences.edit()
+//            editor.clear()
+//            editor.apply()
+//
+//            // LoginActivityへ遷移
+//            val intent = Intent(this, LoginActivity::class.java)
+//            startActivity(intent)
+//
+//            // HomeActivityを終了
+//            finish()
+//        }
+        //--- ログアウトボタン削除に伴うコメントアウト ---
 
-            // SharedPreferencesをクリア
-            val editor = sharedPreferences.edit()
-            editor.clear()
-            editor.apply()
+        // 戻るボタンのクリックイベント
+        backButton.setOnClickListener {
+            Log.d("HomeActivity", "Back clicked")
 
-            // LoginActivityへ遷移
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
-
-            // HomeActivityを終了
-            finish()
         }
 
         // ゲームスタートボタンのクリックイベント

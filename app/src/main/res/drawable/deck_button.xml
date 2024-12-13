@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 角の丸みを設定 -->
+    <corners android:radius="30dp" />
+
+    <!-- ボタンの背景色を設定 -->
+    <solid android:color="#D6F0FF" />
+
+</shape>

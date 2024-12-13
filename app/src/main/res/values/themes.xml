@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.Hack_U_2024" parent="Base.Theme.Hack_U_2024" />
+
+    <style name="RoundedButtonStyle" parent="Widget.Material3.Button">
+        <!-- 背景の色付けを無効化 -->
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/start_button</item>
+    </style>
 </resources>
